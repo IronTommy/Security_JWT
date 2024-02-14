@@ -1,0 +1,13 @@
+spring:
+  docker:
+    compose:
+      stop:
+        command: down
+  sql:
+    init:
+      mode: always
+jwt:
+  cookie-token-key: '{"kty":"oct","k":"956PBFst1FguLr5irJD-aQ"}'
+logging:
+  level:
+    org.springframework.security: trace
